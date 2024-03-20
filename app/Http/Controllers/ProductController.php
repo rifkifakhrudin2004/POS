@@ -7,18 +7,18 @@ use Illuminate\Http\Request;
 class ProductController extends Controller
 {
     public function foodBeverage()    {
-        return view('products.food_beverage');
+        return view('products.food-beverage');
     }
 
     public function beautyHealth()    {
-        return view('products.beauty_health');
+        return view('products.beauty-health');
     }
 
     public function homeCare()    {
-        return view('products.home_care');
+        return view('products.home-care');
     }
 
     public function babyKid()    {
-        return view('products.baby_kid');
+        return view('products.baby-kid');
     }
 }
